@@ -1,11 +1,30 @@
 ul {
   list-style-type: none;
-  text-align: center;
-}
 
+}
+/* 
 #three {
   text-align: center;
   display: block;
+} */
+
+.col-4 {
+  grid-column: span 4;
+  grid-column-start: span 4;
+  grid-column-end: auto;
+}
+
+.image {
+  border-radius: 4px;
+  border: 0;
+  display: inline-block;
+  position: relative;
+}
+
+.image.fit {
+    display: block;
+    margin: 0 0 2em;
+    width: 120%;
 }
 
 .icoLinked {
