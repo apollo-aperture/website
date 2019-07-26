@@ -1,8 +1,10 @@
 
-
 ul {
   list-style-type: none;
 
+}
+#two {
+  background-color: aqua;
 }
 
 #three {
@@ -11,18 +13,23 @@ ul {
   color: #666666;
 } 
 
-
-
-
 .ico-Linked {
   color: #666666;
   /* Other styles here */
+}
+
+.fa-linkedin-square:hover {
+  color: rgb(248, 205, 212);
 }
 
 .ico-github {
   color: #666666;
   /* Other styles here */
 }
+.fa-github:hover {
+  color: rgb(248, 205, 212);
+}
+
 
 ul.icons {
   display: inline-block;
