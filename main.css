@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
 ul {
   list-style-type: none;
@@ -9,13 +10,36 @@ ul {
 
 #three {
   text-align: center;
-  display: block;
-  color: #666666;
+  font-family: 'Raleway', sans-serif;
+  /* color: #666666; */
 } 
+
+h2 {
+  font-size: 35px;
+  padding-top: 3%;
+}
+header.major:after {
+  background: hsla(0,0%,56.5%,.5);
+  content: "";
+  display: inline-block;
+  height: 1px;
+  margin-top: 1.5em;
+  width: 6em
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.col-4{
+  display: inline-block;
+  text-align: center;
+  color: #666666;
+  padding: 5%;
+}
 
 .ico-Linked {
   color: #666666;
-  /* Other styles here */
 }
 
 .fa-linkedin-square:hover {
@@ -24,7 +48,6 @@ ul {
 
 .ico-github {
   color: #666666;
-  /* Other styles here */
 }
 .fa-github:hover {
   color: rgb(105, 184, 210);
@@ -38,7 +61,7 @@ ul.icons {
 .icons li {
   display: center;
   float:left;
-  padding: 5px;
+  padding: 7px;
 }
 
 .image {
