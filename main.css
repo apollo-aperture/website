@@ -19,7 +19,7 @@ ul {
 }
 
 .fa-linkedin-square:hover {
-  color: rgb(248, 205, 212);
+  color: rgb(105, 184, 210);
 }
 
 .ico-github {
@@ -27,7 +27,7 @@ ul {
   /* Other styles here */
 }
 .fa-github:hover {
-  color: rgb(248, 205, 212);
+  color: rgb(105, 184, 210);
 }
 
 
@@ -55,5 +55,5 @@ ul.icons {
 }
 
 #footer {
-  background-color: rgb(248, 205, 212); 
+  background-color: rgb(105, 184, 210); 
 }
