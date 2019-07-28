@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+a:link {
+  text-decoration: none;
+}
 
 ul {
   list-style-type: none;
@@ -78,5 +81,10 @@ ul.icons {
 }
 
 #footer {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
   background-color: rgb(105, 184, 210); 
-}
+  /* color: #666666; */
+} 
+
+
