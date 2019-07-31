@@ -21,7 +21,6 @@ ul {
   height: 50%;
 }
 #two {
-  height: 50%;
   background: linear-gradient(#333333, transparent),
     linear-gradient(to top left, grey, transparent),
     linear-gradient(to top right, #555555, transparent);
@@ -34,6 +33,7 @@ ul {
   display: block;
   padding-left: 50%;
   margin-right: 10%;
+  padding-bottom: 2%;
 }
 #three {
   text-align: center;
