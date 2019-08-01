@@ -20,6 +20,27 @@ ul {
 #one {
   height: 50%;
 }
+
+#wrapper1 {
+  display: inline-flex;
+  font-family: "Raleway", sans-serif;
+  color:#666666;
+}
+
+#leftside{
+  width: 40%;
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#rightside{
+  width: 40%;
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 #two {
   background: linear-gradient(#333333, transparent),
     linear-gradient(to top left, grey, transparent),
@@ -33,7 +54,7 @@ ul {
 #wrapper{
   display: flex;
 }
-#right{
+#left{
   flex: 0 0 55%;
   margin-left: 5%;
   padding-top: 5%;
@@ -46,7 +67,7 @@ ul {
   /* display: inline-block;
   padding-left: 50%; */
   margin-right: 10%;
-  padding-top: 3%;
+  padding-top: 4%;
   padding-bottom: 2%;
   margin-left: -5%;
 }
