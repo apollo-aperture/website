@@ -15,10 +15,11 @@ ul {
     linear-gradient(to top left, grey, transparent),
     linear-gradient(to top right, red, transparent);
   background-blend-mode: screen;
-  height: 50%;
+  height: 40%;
 }
 #one {
-  height: 50%;
+  height: 60%;
+  padding-bottom: 2%;
 }
 
 #wrapper1 {
@@ -29,14 +30,15 @@ ul {
 
 #leftside{
   width: 40%;
-  margin-top: 3%;
+  margin-top: 2%;
   margin-left: 5%;
   margin-right: 5%;
+
 }
 
 #rightside{
   width: 40%;
-  margin-top: 3%;
+  margin-top: 4%;
   margin-left: 5%;
   margin-right: 5%;
 }
