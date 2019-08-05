@@ -28,6 +28,10 @@ ul {
   padding-right: 15%;
 }
 
+#logo {
+  padding-left: 70%;
+}
+
 #header {
   background: linear-gradient(rgba(0, 13, 255, 0.792), transparent),
     linear-gradient(to top left, grey, transparent),
