@@ -10,6 +10,24 @@ ul {
   list-style-type: none;
 }
 
+#toph1{
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: aliceblue;
+  padding-top: 5%;
+  font-size: 60px;
+  padding-right: 22%;
+}
+
+#both1{
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: aliceblue;
+  font-size: 60px;
+  margin: -3%;
+  padding-right: 15%;
+}
+
 #header {
   background: linear-gradient(rgba(0, 13, 255, 0.792), transparent),
     linear-gradient(to top left, grey, transparent),
