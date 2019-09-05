@@ -1,120 +1,121 @@
-<!DOCTYPE <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Apollo Aperture</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <script src="main.js"></script>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Apollo Aperture</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
 </head>
 <body>
-  <div class="body">
-    <section class="sections" id="header">
-      <h1 id="toph1">Apollo </h1><h1 id="both1">
-          Aperture
-      </h1>
-      <!-- <img id="logo" src="https://imgur.com/svX0GGi.png" height="25%" width="13%" ></img> -->
-    </section>
-      <section class="sections" id="one">
-      <div id="wrapper1">
-        <div id="leftside">
-          <h3>Quick description how to use</h3>
-            <p>Apollo Aperture mission is to have the ability to be used almost like React Hooks, where developers can insert mutations or queries almost anywhere in their code and connect them to React components. In a large codebase, however, this can become problematic because developers can find themselves in connected component hell where queries and mutations are strewn across their codebase and React components are connected with multiple queries and mutations. Not only is this an issue for developers, it can also cause issues for users. When Apollo’s client store or cache is updated, React child components which rely on queries or subscriptions are re-rendered, causing React’s DOM diffing algorithm to do more work which increases loading time on the client</p>
-          </div>
-        <div id="rightside">
-          <img src="https://imgur.com/Ej1rp5u.png" height="80%" width="85%"> 
-      </div>
-      </div>
-    </section>
-    <section class="sections" id="two">
-      <div id="wrapper">
-        <div id="left">
-        <img  id="screenshot" src="https://imgur.com/yLt9r5c.png" height="90%" width="60%" ></img>
-      </div>
-        <div id="twopara">
-          <h3>A great Devtool</h3>
-        <p id="p1" class="para">Apollo Aperture mission is to have the ability to be used almost like React Hooks, where developers can insert mutations or queries almost anywhere in their code and connect them to React components. In a large codebase, however, this can become problematic because developers can find themselves in connected component hell where queries and mutations are strewn across their codebase and React components are connected with multiple queries and mutations. Not only is this an issue for developers, it can also cause issues for users. When Apollo’s client store or cache is updated, React child components which rely on queries or subscriptions are re-rendered, causing React’s DOM diffing algorithm to do more work which increases loading time on the client.</p>
-        <p id="p2" class="para">Currently Apollo Aperture is a desktop application that analyzes Apollo and React code and displays the relationships between React components and Apollo queries and/or subscriptions. This tool will give developers critical insight into their frontend architecture so that they can minimize unnecessary component re-rendering and optimize their application. In a coming update, it will also enable a developer to invoke mutations and see how queries are affected.</p>
-      </div>
+<div class="body">
+  <section id="header"><h1>Apollo Aperture</h1></section>
+  <!--  <section class="sections" id="one">One</section>-->
+  <!--  <section class="sections" id="two">-->
+  <div class="wrapper">
+    <div class="right-flex">
+      <img id="screenshot" alt="Apollo Aperture Image" src="https://imgur.com/yLt9r5c.png" height="90%" width="60%"/>
     </div>
-    </section>
-    <section class="sections" id="three">
-      <div class="grid-wrapper">
-            <header class="major">
-                <h2>Meet the Arthurs!</h2>
-            </header>
-       <div class="col-4">
-          <span class="image fit"></span>
-         <h3>Jonathan Peralez</h3>
-         <ul class="icons">
-           <li>
-             <a href="https://www.linkedin.com/in/jonathanperalez/" class="ico-Linked"><i class="fa fa-linkedin-square fa-2x"></i></a>
-           </li>
-            <li>
-             <a href="https://github.com/JonathanPeralez" class="ico-github"><i class="fa fa-github fa-2x"></i></a>
-           </li>
-         </ul>
-       </div>
-       <div class="col-4">
-          <span class="image fit"></span>
-         <h3>Raffi Nakashian</h3>
-         <ul class="icons">
+    <div class="left-flex">
+      <h3>A great Devtool</h3>
+      <p>Apollo Aperture mission is to have the ability to be used almost like React Hooks, where
+        developers can insert mutations or queries almost anywhere in their code and connect them to React components.
+        In a large codebase, however, this can become problematic because developers can find themselves in connected
+        component hell where queries and mutations are strewn across their codebase and React components are connected
+        with multiple queries and mutations. Not only is this an issue for developers, it can also cause issues for
+        users. When Apollo’s client store or cache is updated, React child components which rely on queries or
+        subscriptions are re-rendered, causing React’s DOM diffing algorithm to do more work which increases loading
+        time on the client.</p>
+      <p>Currently Apollo Aperture is a desktop application that analyzes Apollo and React code
+        and displays the relationships between React components and Apollo queries and/or subscriptions. This tool
+        will give developers critical insight into their frontend architecture so that they can minimize unnecessary
+        component re-rendering and optimize their application. In a coming update, it will also enable a developer to
+        invoke mutations and see how queries are affected.</p>
+    </div>
+  </div>
+  <section class="center-content">
+    <div>
+      <div class="major">
+        <h2>Meet the Authors!</h2>
+      </div>
+      <div class="col-4">
+        <span class="image fit"></span>
+        <h3>Jonathan Peralez</h3>
+        <ul class="icons">
           <li>
-            <a href="https://www.linkedin.com/in/fikash/" class="ico-Linked"><i class="fa fa-linkedin-square fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/jonathanperalez/" class="ico-Linked"><i
+                class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
           </li>
           <li>
-            <a href="https://github.com/Fikash" class="ico-github"><i class="fa fa-github fa-2x"></i></a>
+            <a href="https://github.com/JonathanPeralez" class="ico-github"><i class="fa fa-github fa-2x"
+                                                                               aria-hidden="true"></i></a>
           </li>
-         </ul>
-       </div>
-       <div class="col-4">
-          <span class="image fit"></span>
-         <h3>Steven Jung</h3>
-         <ul class="icons">
+        </ul>
+      </div>
+      <div class="col-4">
+        <span class="image fit"></span>
+        <h3>Raffi Nakashian</h3>
+        <ul class="icons">
           <li>
-            <a href="https://www.linkedin.com/in/stehyjung/" class="ico-Linked"><i class="fa fa-linkedin-square fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/fikash/" class="ico-Linked"><i class="fa fa-linkedin-square fa-2x"
+                                                                                aria-hidden="true"></i></a>
           </li>
           <li>
-            <a href="https://github.com/stehyjung" class="ico-github"><i class="fa fa-github fa-2x"></i></a>
+            <a href="https://github.com/Fikash" class="ico-github"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
           </li>
-         </ul>
-       </div>
-       <div class="col-4">
-         <span class="image fit"></span>
-         <h3>Mike Huynh</h3>
-         <ul class="icons">
+        </ul>
+      </div>
+      <div class="col-4">
+        <span class="image fit"></span>
+        <h3>Steven Jung</h3>
+        <ul class="icons">
           <li>
-            <a href="https://www.linkedin.com/in/mikehuynh28/" class="ico-Linked"><i class="fa fa-linkedin-square fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/stehyjung/" class="ico-Linked"><i class="fa fa-linkedin-square fa-2x"
+                                                                                   aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="https://github.com/stehyjung" class="ico-github"><i class="fa fa-github fa-2x"
+                                                                         aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-4">
+        <span class="image fit"></span>
+        <h3>Mike Huynh</h3>
+        <ul class="icons">
+          <li>
+            <a href="https://www.linkedin.com/in/mikehuynh28/" class="ico-Linked"><i
+                class="fa fa-linkedin-square fa-2x"></i></a>
           </li>
           <li>
             <a href="https://github.com/Codingspree777" class="ico-github"><i class="fa fa-github fa-2x"></i></a>
           </li>
-         </ul>
-       </div>
+        </ul>
+      </div>
+    </div>
+    <br>
+  </section>
+  <section class="sections" id="footer">
+    <div>
+      <header class="major">
+        <h2>Want to collaborate?</h2>
+      </header>
+      <p>Join us to improve on this Apollo Devtool!</p>
+      <p>Star us on Github!</p>
+      <br>
+      <div class="actions-uniform">
+        <button class="buttons" id="button1">
+          <a href="https://github.com/apollo-aperture/apollo-aperture">EMAIL</a>
+        </button>
+        <button class="buttons" id="button2">
+          <a href="https://github.com/apollo-aperture/apollo-aperture">GITHUB</a>
+        </button>
       </div>
       <br>
-    </section>
-    <section class="sections" id="footer">
-      <div>
-        <header class="major">
-          <h2>Want to collaborate?</h2>
-        </header>
-        <p>Join us to improve on this Apollo Devtool!</p>
-        <p>Star us on Github!</p>
-        <br>
-        <div class="actions-uniform">
-              <button class="buttons" id="button1">
-                  <a href="https://github.com/apollo-aperture/apollo-aperture" >EMAIL</a>
-              </button>
-            <button class="buttons" id="button2">
-                <a href="https://github.com/apollo-aperture/apollo-aperture" >GITHUB</a>
-            </button>
-        </div>
-        <br>
-      </div>
-    </section>
-  </div>
+    </div>
+  </section>
+</div>
 </body>
 </html>

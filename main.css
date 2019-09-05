@@ -1,84 +1,59 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
-a:link {
-  text-decoration: none;
+* {
+  overflow: auto;
 }
+
+body {
+  font-family: Arial, sans-serif;
+}
+
 a {
   color: black;
+}
+
+a:link {
+  text-decoration: none;
 }
 
 ul {
   list-style-type: none;
 }
 
-#toph1{
-  text-align: center;
+h1, h2, h3 {
   font-family: "Raleway", sans-serif;
-  color: aliceblue;
-  padding-top: 5%;
-  font-size: 60px;
-  padding-right: 22%;
 }
 
-#both1{
-  text-align: center;
-  font-family: "Raleway", sans-serif;
-  color: aliceblue;
-  font-size: 60px;
-  margin: -3%;
-  padding-right: 15%;
+h2 {
+  font-size: 40px;
+  padding-top: 3%;
 }
 
-#logo {
-  padding-left: 70%;
+h3 {
+  font-size: 25px;
 }
 
 #header {
   background: linear-gradient(rgba(0, 13, 255, 0.792), transparent),
-    linear-gradient(to top left, grey, transparent),
-    linear-gradient(to top right, red, transparent);
+  linear-gradient(to top left, grey, transparent),
+  linear-gradient(to top right, red, transparent);
   background-blend-mode: screen;
-  height: 40%;
-}
-#one {
-  height: 60%;
-  padding-bottom: 2%;
-}
-
-#wrapper1 {
-  display: inline-flex;
-  font-family: "Raleway", sans-serif;
-  color:#666666;
-}
-
-#leftside{
-  width: 40%;
-  margin-top: 2%;
-  margin-left: 5%;
-  margin-right: 5%;
-
-}
-
-#rightside{
-  width: 40%;
-  margin-top: 4%;
-  margin-left: 5%;
-  margin-right: 5%;
+  height: auto;
 }
 
 #two {
   background: linear-gradient(#333333, transparent),
-    linear-gradient(to top left, grey, transparent),
-    linear-gradient(to top right, #555555, transparent);
+  linear-gradient(to top left, grey, transparent),
+  linear-gradient(to top right, #555555, transparent);
   background-blend-mode: screen;
   font-family: "Raleway", sans-serif;
-  color:aliceblue;
+  color: aliceblue;
   font-size: 20px;
 }
 
-#wrapper{
+.wrapper {
   display: flex;
 }
-#left{
+
+.right-flex {
   flex: 0 0 55%;
   margin-left: 5%;
   padding-top: 5%;
@@ -86,36 +61,27 @@ ul {
   padding-bottom: 2%;
 }
 
-#twopara{
+.left-flex {
   flex: 1;
   /* display: inline-block;
   padding-left: 50%; */
   margin-right: 10%;
-  padding-top: 4%;
+  padding-top: 3%;
   padding-bottom: 2%;
   margin-left: -5%;
 }
-#three {
+
+.center-content {
   text-align: center;
-  font-family: "Raleway", sans-serif;
-  /* color: #666666; */
 }
 
-h2 {
-  font-size: 40px;
-  padding-top: 3%;
-}
-header.major:after {
+.major:after {
   background: hsla(0, 0%, 56.5%, 0.5);
   content: "";
   display: inline-block;
   height: 1px;
   margin-top: 1.5em;
   width: 6em;
-}
-
-h3 {
-  font-size: 25px;
 }
 
 .col-4 {
@@ -136,6 +102,7 @@ h3 {
 .ico-github {
   color: #666666;
 }
+
 .fa-github:hover {
   color: rgb(105, 184, 210);
 }
@@ -144,6 +111,7 @@ ul.icons {
   display: inline-flex;
   padding-left: 2px;
 }
+
 .icons li {
   display: center;
   float: left;
@@ -162,8 +130,8 @@ ul.icons {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   background: linear-gradient(rgba(0, 13, 255, 0.792), transparent),
-    linear-gradient(to top left, grey, transparent),
-    linear-gradient(to top right, red, transparent);
+  linear-gradient(to top left, grey, transparent),
+  linear-gradient(to top right, red, transparent);
   background-blend-mode: screen;
 }
 
@@ -175,6 +143,7 @@ ul.icons {
   border-radius: 6px;
   background-color: lightgray;
 }
+
 .buttons:hover {
   background-color: white;
 }
