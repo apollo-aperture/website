@@ -6,33 +6,39 @@
   <title>Apollo Aperture</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:200,400&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map" rel="stylesheet">
   <link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
 </head>
 <body>
 <div class="body">
-  <section id="header"><h1>Apollo Aperture</h1></section>
+  <section id="header">
+    <!--    <img src="assets/aa_logo.png" height="100"/>-->
+    <h1>Apollo Aperture</h1>
+  </section>
   <!--  <section class="sections" id="one">One</section>-->
   <!--  <section class="sections" id="two">-->
   <div class="wrapper">
-    <div class="right-flex">
-      <img id="screenshot" alt="Apollo Aperture Image" src="https://imgur.com/yLt9r5c.png" height="90%" width="60%"/>
-    </div>
     <div class="left-flex">
-      <h3>A great Devtool</h3>
-      <p>Apollo Aperture mission is to have the ability to be used almost like React Hooks, where
-        developers can insert mutations or queries almost anywhere in their code and connect them to React components.
-        In a large codebase, however, this can become problematic because developers can find themselves in connected
-        component hell where queries and mutations are strewn across their codebase and React components are connected
-        with multiple queries and mutations. Not only is this an issue for developers, it can also cause issues for
-        users. When Apollo’s client store or cache is updated, React child components which rely on queries or
-        subscriptions are re-rendered, causing React’s DOM diffing algorithm to do more work which increases loading
-        time on the client.</p>
-      <p>Currently Apollo Aperture is a desktop application that analyzes Apollo and React code
-        and displays the relationships between React components and Apollo queries and/or subscriptions. This tool
-        will give developers critical insight into their frontend architecture so that they can minimize unnecessary
-        component re-rendering and optimize their application. In a coming update, it will also enable a developer to
-        invoke mutations and see how queries are affected.</p>
+      <p class="lead">Easily find how Apollo mutations and queries are affecting your React components</p>
+      <p class="lead">Simply drag and drop</p>
+      <p>Apollo Aperture is a desktop application that analyzes Apollo and React code and displays the relationships
+        among React components and Apollo queries and/or subscriptions. This tool provides developers with critical
+        insight into their frontend architecture so that they can minimize unnecessary component re-rendering and
+        optimize their application. In a coming update, it will also enable a developer to invoke mutations and see how
+        queries are affected.</p>
+    </div>
+    <div class="right-flex center">
+      <img src="assets/apollo_01.gif"/>
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="left-flex center">
+      <img src="assets/apollo_02.png" />
+    </div>
+    <div class="right-flex">
+      <h2>Motivation</h2>
+      <p>Apollo Client is designed so that a developer can insert GraphQL mutations, queries, and subscriptions almost anywhere in their code and connect them to React components. In a large codebase, however, this can become problematic because developers can find themselves in connected component hell where queries and mutations are strewn across their codebase and React components are connected with multiple queries and mutations. Not only is this an issue for developers, it can also cause issues for users. When Apollo’s client store or cache is updated, React child components which rely on queries or subscriptions are re-rendered, causing React’s DOM diffing algorithm to do more work which increases loading time on the client.</p>
     </div>
   </div>
   <section class="center-content">
