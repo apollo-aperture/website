@@ -13,13 +13,11 @@
 <body>
 <div class="body">
   <section id="header">
-    <!--    <img src="assets/aa_logo.png" height="100"/>-->
     <h1>Apollo Aperture</h1>
   </section>
-  <!--  <section class="sections" id="one">One</section>-->
-  <!--  <section class="sections" id="two">-->
+
   <div class="wrapper">
-    <div class="left-flex">
+    <div class="flex-3">
       <p class="lead">Easily find how Apollo mutations and queries are affecting your React components</p>
       <p class="lead">Simply drag and drop</p>
       <p>Apollo Aperture is a desktop application that analyzes Apollo and React code and displays the relationships
@@ -28,19 +26,27 @@
         optimize their application. In a coming update, it will also enable a developer to invoke mutations and see how
         queries are affected.</p>
     </div>
-    <div class="right-flex center">
-      <img src="assets/apollo_01.gif"/>
+    <div class="flex-2">
+      <img src="assets/apollo_01.gif" class="img-right" alt="animated gif that shows Apollo Aperture functionality"/>
     </div>
   </div>
   <div class="wrapper">
-    <div class="left-flex center">
-      <img src="assets/apollo_02.png" />
+    <div class="flex-1 reorder-1">
+      <img src="assets/apollo_02.png" class="img-left" alt="an Abstract Syntax Tree shown in a code editor"/>
     </div>
-    <div class="right-flex">
+    <div class="flex-3 reorder-0">
       <h2>Motivation</h2>
-      <p>Apollo Client is designed so that a developer can insert GraphQL mutations, queries, and subscriptions almost anywhere in their code and connect them to React components. In a large codebase, however, this can become problematic because developers can find themselves in connected component hell where queries and mutations are strewn across their codebase and React components are connected with multiple queries and mutations. Not only is this an issue for developers, it can also cause issues for users. When Apollo’s client store or cache is updated, React child components which rely on queries or subscriptions are re-rendered, causing React’s DOM diffing algorithm to do more work which increases loading time on the client.</p>
+      <p>Apollo Client is designed so that a developer can insert GraphQL mutations, queries, and subscriptions almost
+        anywhere in their code and connect them to React components. In a large codebase, however, this can become
+        problematic because developers can find themselves in connected component hell where queries and mutations are
+        strewn across their codebase and React components are connected with multiple queries and mutations. Not only is
+        this an issue for developers, it can also cause issues for users. When Apollo’s client store or cache is
+        updated,
+        React child components which rely on queries or subscriptions are re-rendered, causing React’s DOM diffing
+        algorithm to do more work which increases loading time on the client.</p>
     </div>
   </div>
+
   <section class="center-content">
     <div>
       <div class="major">
@@ -101,7 +107,6 @@
         </ul>
       </div>
     </div>
-    <br>
   </section>
   <section class="sections" id="footer">
     <div>
@@ -110,7 +115,7 @@
       </header>
       <p>Join us to improve on this Apollo Devtool!</p>
       <p>Star us on Github!</p>
-      <br>
+
       <div class="actions-uniform">
         <button class="buttons" id="button1">
           <a href="https://github.com/apollo-aperture/apollo-aperture">EMAIL</a>
