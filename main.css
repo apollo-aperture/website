@@ -21,6 +21,8 @@ a:link {
 
 ul {
   list-style-type: none;
+  /*margin: 5px auto;*/
+  margin: 10px auto auto auto;
 }
 
 h1, h2, h3 {
@@ -55,11 +57,13 @@ h3 {
   linear-gradient(to top right, red, transparent);
   background-blend-mode: screen;
   height: 400px;
+  text-align: center;
 }
 
 #header > h1 {
+  /*display: block;*/
   color: #fff;
-  height: auto;
+  line-height: 3rem;
 }
 
 #two {
@@ -156,7 +160,7 @@ h3 {
   display: inline-block;
   text-align: center;
   color: #666666;
-  padding: 20px;
+  padding: 10px 22px;
 }
 
 .ico-Linked {
@@ -194,6 +198,8 @@ ul.icons {
 }
 
 #footer {
+  margin-top: 5vh;
+  color: white;
   text-align: center;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
@@ -201,7 +207,8 @@ ul.icons {
   linear-gradient(to top left, grey, transparent),
   linear-gradient(to top right, red, transparent);
   background-blend-mode: screen;
-  padding-bottom: 20px;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
 }
 
 .buttons {
